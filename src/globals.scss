@@ -2,33 +2,51 @@
 
 html,
 body {
-  padding: 0;
-  margin: 0;
-  font-family: 'Outfit', sans-serif;
-  max-width: 1024px;
-  margin: 0 auto;
-  color: #6f6e6e;;
+	padding: 0;
+	margin: 0;
+	font-family: 'Outfit', sans-serif;
+	max-width: 1024px;
+	margin: 0 auto;
+	color: #6f6e6e;
 }
 
 a {
-  color: inherit;
-  text-decoration: none;
+	color: inherit;
+	text-decoration: none;
 }
 
-ul{
-  padding: 0;
-  margin: 0;
+ul {
+	padding: 0;
+	margin: 0;
 }
 
-li{
-  list-style: none;
+li {
+	list-style: none;
+}
+
+h1 {
+	font-weight: 700;
+	font-size: 48px;
+	line-height: 26px;
+	color: #42446e;
+}
+
+p {
+	font-weight: 400;
+	font-size: 28px;
+	line-height: 26px;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+	height: auto;
 }
 
 * {
-  box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 :root {
-  --primary-color: #fff
+	--primary-color: #fff;
 }
-
