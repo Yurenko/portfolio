@@ -1,0 +1,11 @@
+.projects {
+	text-align: center;
+
+	.cards {
+		display: grid;
+		grid-template-columns: repeat(auto-fill, minmax(270px, 320px));
+		row-gap: 40px;
+		column-gap: 30px;
+		justify-content: center;
+	}
+}
