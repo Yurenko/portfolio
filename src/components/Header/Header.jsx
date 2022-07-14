@@ -7,26 +7,7 @@ import { useRef } from 'react'
 import { Navigation } from './Navigation'
 import { MenuToggle } from './MenuToggle'
 import { useDimensions } from '../../hooks/useDimensions'
-
-const sidebar = {
-	open: (height = 1000) => ({
-		clipPath: `circle(${height * 2 + 200}px at calc(100% - 50px) 40px)`,
-		transition: {
-			type: 'spring',
-			stiffness: 20,
-			restDelta: 2,
-		},
-	}),
-	closed: {
-		clipPath: `circle(30px at calc(100% - 50px) 40px)`,
-		transition: {
-			delay: 0.5,
-			type: 'spring',
-			stiffness: 400,
-			damping: 40,
-		},
-	},
-}
+import { sidebar } from '../../config/motionParams'
 
 const Header = () => {
 	const isTabletOrMobile = useMediaQuery({ query: '(max-width: 768px)' })

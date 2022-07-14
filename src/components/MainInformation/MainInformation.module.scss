@@ -1,0 +1,72 @@
+@import '../../breakpoints.scss';
+
+.mainInformation {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+	@include media('<=tablet') {
+		flex-wrap: wrap;
+		justify-content: center;
+		margin-top: 50px;
+	}
+
+	.information {
+		max-width: 500px;
+		font-weight: 700;
+		font-size: 55px;
+		text-align: center;
+
+		@include media('<=tablet') {
+			font-size: 45px;
+		}
+
+		@include media('<=phone') {
+			font-size: 25px;
+		}
+	}
+	.userIcon {
+		width: 350px;
+		height: 350px;
+		position: relative;
+
+		&:before {
+			content: '';
+			position: absolute;
+			inset: 0;
+			border: 10px solid transparent;
+			border-radius: 50%;
+
+			background: linear-gradient(
+					to bottom,
+					hsl(240deg 100% 51%) 0%,
+					hsl(298deg 100% 51%) 33%,
+					hsl(357deg 100% 50%) 67%,
+					hsl(55deg 100% 50%) 100%
+				)
+				border-box;
+
+			-webkit-mask: linear-gradient(#fff 0 0) content-box,
+				linear-gradient(#fff 0 0);
+			-webkit-mask-composite: xor;
+			mask-composite: exclude;
+		}
+
+		img {
+			width: 100%;
+			height: 100%;
+			border-radius: 50%;
+			object-fit: cover;
+			object-position: 0 0;
+		}
+
+		@include media('<=tablet') {
+			margin-top: 25px;
+		}
+
+		@include media('<=phone') {
+			width: 280px;
+			height: 280px;
+		}
+	}
+}

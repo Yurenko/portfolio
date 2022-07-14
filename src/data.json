@@ -1,0 +1,54 @@
+{
+	"stack": [
+		"react",
+		"redux",
+		"js",
+		"typescript",
+		"css",
+		"api",
+		"git",
+		"github",
+		"vscode",
+		"figma",
+		"photoshop",
+		"sass"
+	],
+	"projects": [
+		{
+			"id": 1,
+			"name": "Online Cinema",
+			"information": "Lore mdscsss ss",
+			"img": "src",
+			"stack": "TypeScript, Next.js, Redux-Toolkit, axios, draft-js, js-cookie, react-hook-form, react-icons, react-loading-skeleton, sass, prettier, tailwind, Git, GitHub,",
+			"link": "link",
+			"github": "https://github.com/Yurenko/online-cinema"
+		},
+		{
+			"id": 2,
+			"name": "Clone Youtube",
+			"information": "I am try to copy Youtube.",
+			"img": "./youtube.JPG",
+			"stack": "TypeScript, React, Redux, Axios, JavaScript(ES5, ES6) Git, GitHub, HTML, Cascading Style Sheets (CSS), Material UI, Luxon.",
+			"link": "https://yurenko.github.io/my_own_youtube/",
+			"github": "https://github.com/Yurenko/my_own_youtube"
+		},
+		{
+			"id": 3,
+			"name": "Bookstore",
+			"information": "This is a bookstore. Where you can choose a book and add their number. You can go to the cart and view the total number and amount of books, and if necessary, remove the book from the list.",
+			"img": "./bookstore.JPG",
+			"stack": "React, Redux, JavaScript(ES5, ES6) Git, GitHub, HTML, Cascading Style Sheets (CSS)",
+			"link": "https://yurenko.github.io/library/#/",
+			"github": "https://github.com/Yurenko/library"
+		},
+		{
+			"id": 4,
+			"name": "Currency Converter",
+			"information": "In this project, you can choose the amount of currency and convert to another. There is also a list of currencies of the current date. You can view the exchange rate by setting the desired date.",
+			"img": "./currency_converter.JPG",
+			"stack": "React, Redux, TypeScript, JavaScript(ES5, ES6) Git, GitHub, HTML, Cascading Style Sheets (CSS).",
+			"link": "https://yurenko.github.io/currency_converter/",
+			"github": "https://github.com/Yurenko/currency_converter"
+		}
+	]
+}
