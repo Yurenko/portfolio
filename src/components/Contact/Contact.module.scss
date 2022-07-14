@@ -1,5 +1,6 @@
 .contact {
-	h2 {
+	margin-bottom: 50px;
+	h1 {
 		position: relative;
 
 		&::before {
@@ -7,8 +8,8 @@
 			display: none;
 			content: url('../../assets/outline-text/contact.svg');
 			opacity: 0.4;
-			top: -25px;
-			left: -185px;
+			top: -35px;
+			left: -190px;
 		}
 	}
 
@@ -21,7 +22,7 @@
 	}
 
 	@media (min-width: 1024px) {
-		h2:before {
+		h1:before {
 			display: block;
 		}
 		.subtitle {
