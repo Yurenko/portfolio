@@ -16,7 +16,7 @@ const ProjectsCard = (project) => {
 			className={styles.card}
 		>
 			<div className={styles.image}>
-				<img src={img} alt={name} />
+				<img src={img ? img : '/noimage.jpeg'} alt={name} />
 			</div>
 			<div className={styles.information}>
 				<h2>{name}</h2>
@@ -24,16 +24,16 @@ const ProjectsCard = (project) => {
 				<p className={styles.stack}>
 					<b>Tech stack :</b> {stack}
 				</p>
-				<div className={styles.links}>
-					<a href={link} target="_blank" rel="noreferrer">
-						<BsLink size={20} />
-						<p> Live Previev</p>
-					</a>
-					<a href={github} target="_blank" rel="noreferrer">
-						<BsGithub size={20} />
-						<p>Viev Code</p>
-					</a>
-				</div>
+			</div>
+			<div className={styles.links}>
+				<a href={link} target="_blank" rel="noreferrer">
+					<BsLink size={20} />
+					<p> Live Previev</p>
+				</a>
+				<a href={github} target="_blank" rel="noreferrer">
+					<BsGithub size={20} />
+					<p>Viev Code</p>
+				</a>
 			</div>
 		</motion.div>
 	)

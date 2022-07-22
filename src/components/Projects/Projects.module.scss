@@ -17,6 +17,7 @@
 	.cards {
 		display: grid;
 		grid-template-columns: repeat(auto-fill, minmax(270px, 310px));
+		grid-template-rows: 200px minmax(100px, 400px);
 		row-gap: 40px;
 		column-gap: 30px;
 		justify-content: center;
