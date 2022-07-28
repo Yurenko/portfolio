@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Yurenko/portfolio.git/static/css/main.a665c962.css",
+    "main.js": "/Yurenko/portfolio.git/static/js/main.8bb86ddf.js",
+    "static/media/myPhoto.jpg": "/Yurenko/portfolio.git/static/media/myPhoto.2bab644ddcc872bf05d6.jpg",
+    "static/media/Yura_Didenko_jz6tr3_c_scale,w_961.jpg": "/Yurenko/portfolio.git/static/media/Yura_Didenko_jz6tr3_c_scale,w_961.80f8fa79e055d12e26da.jpg",
+    "static/media/Yura_Didenko_jz6tr3_c_scale,w_894.jpg": "/Yurenko/portfolio.git/static/media/Yura_Didenko_jz6tr3_c_scale,w_894.1e003ec188a54cde9698.jpg",
+    "static/media/Yura_Didenko_jz6tr3_c_scale,w_787.jpg": "/Yurenko/portfolio.git/static/media/Yura_Didenko_jz6tr3_c_scale,w_787.8a56d31c89c83d4387bf.jpg",
+    "static/media/Yura_Didenko_jz6tr3_c_scale,w_671.jpg": "/Yurenko/portfolio.git/static/media/Yura_Didenko_jz6tr3_c_scale,w_671.c0dc28b4c9026f86f20e.jpg",
+    "static/media/Yura_Didenko_jz6tr3_c_scale,w_550.jpg": "/Yurenko/portfolio.git/static/media/Yura_Didenko_jz6tr3_c_scale,w_550.69fba2cdd21ccb51e58c.jpg",
+    "static/media/Yura_Didenko_jz6tr3_c_scale,w_399.jpg": "/Yurenko/portfolio.git/static/media/Yura_Didenko_jz6tr3_c_scale,w_399.17fffb196241486000da.jpg",
+    "static/media/contact.svg": "/Yurenko/portfolio.git/static/media/contact.18712f6b1bc919c7d7ce.svg",
+    "static/media/projects.svg": "/Yurenko/portfolio.git/static/media/projects.20ba192484eeafc3595d.svg",
+    "static/media/stack.svg": "/Yurenko/portfolio.git/static/media/stack.16959adf4904f8204218.svg",
+    "static/media/Yura_Didenko_jz6tr3_c_scale,w_200.jpg": "/Yurenko/portfolio.git/static/media/Yura_Didenko_jz6tr3_c_scale,w_200.3d07c5362131d6f6703b.jpg",
+    "static/media/logo.svg": "/Yurenko/portfolio.git/static/media/logo.64e43af11f68a31d4697a23595910e6f.svg",
+    "index.html": "/Yurenko/portfolio.git/index.html",
+    "main.a665c962.css.map": "/Yurenko/portfolio.git/static/css/main.a665c962.css.map",
+    "main.8bb86ddf.js.map": "/Yurenko/portfolio.git/static/js/main.8bb86ddf.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a665c962.css",
+    "static/js/main.8bb86ddf.js"
+  ]
+}
