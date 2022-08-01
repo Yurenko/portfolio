@@ -1,5 +1,4 @@
 .stack {
-	margin: 150px 0;
 	text-align: center;
 
 	h1 {
@@ -28,6 +27,7 @@
 			margin: 0 auto;
 		}
 	}
+	
 	@media (min-width: 1024px) {
 		h1:before {
 			display: block;

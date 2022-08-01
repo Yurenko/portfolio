@@ -18,7 +18,7 @@
 			"id": 1,
 			"name": "Online Cinema",
 			"information": "Lore mdscsss ss",
-			"img": "src",
+			"img": "./Online-cinema.jpg",
 			"stack": "TypeScript, Next.js, Redux-Toolkit, axios, draft-js, js-cookie, react-hook-form, react-icons, react-loading-skeleton, sass, prettier, tailwind, Git, GitHub,",
 			"link": "link",
 			"github": "https://github.com/Yurenko/online-cinema"
@@ -49,6 +49,36 @@
 			"stack": "React, Redux, TypeScript, JavaScript(ES5, ES6) Git, GitHub, HTML, Cascading Style Sheets (CSS).",
 			"link": "https://yurenko.github.io/currency_converter/",
 			"github": "https://github.com/Yurenko/currency_converter"
+		}
+	],
+	"educations": [
+		{
+			"id": 1,
+			"name": "National Technical University of Ukraine 'Kyiv Polytechnic Institute",
+			"speciality": "Master's degree, electrical engineering",
+			"time": "full time",
+			"period": "вер 2019 р. - груд 2021 р."
+		},
+		{
+			"id": 2,
+			"name": "National Technical University of Ukraine 'Kyiv Polytechnic Institute",
+			"speciality": "Bachelor's degree, electrical engineering",
+			"time": "full time",
+			"period": "2015 - 2019"
+		},
+		{
+			"id": 3,
+			"name": "React marathon",
+			"speciality": "SoftServe",
+			"time": "full time",
+			"period": "25.11.2021 - 10.02.2022"
+		},
+		{
+			"id": 4,
+			"name": "Front-end для просунутих",
+			"speciality": "Udemy",
+			"time": "full time",
+			"period": "10.04.2022 - 10.07.2022"
 		}
 	]
 }

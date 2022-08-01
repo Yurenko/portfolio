@@ -17,16 +17,12 @@
 		font-size: 16px;
 		line-height: 24px;
 		color: rgb(135 142 153);
-		margin-bottom: 64px;
 		max-width: 520px;
 	}
 
 	@media (min-width: 1024px) {
 		h1:before {
 			display: block;
-		}
-		.subtitle {
-			margin-bottom: 96px;
 		}
 	}
 }
@@ -71,15 +67,21 @@
 			top: 20px;
 			color: red;
 		}
+
+		@media (max-width: 768px) {
+			& {
+				flex-wrap: wrap;
+				gap: 0;
+			}
+		}
 	}
 
 	.button {
+		display: block;
+		margin: 10px auto 0;
 		padding: 16px 28px;
 		font-weight: 500;
 		color: #fff;
-		display: flex;
-		align-items: center;
-		justify-content: center;
 		background-color: #d4dade;
 		border-radius: 10px;
 		border: none;

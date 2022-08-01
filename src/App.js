@@ -4,6 +4,7 @@ import MainInformation from './components/MainInformation/MainInformation'
 import Stack from './components/Stack/Stack'
 import Projects from './components/Projects/Projects'
 import Contact from './components/Contact/Contact'
+import About from './components/About/About'
 
 function App() {
 	return (
@@ -21,7 +22,7 @@ function App() {
 						</>
 					}
 				/>
-				<Route path="/about" element={<MainInformation />} />
+				<Route path="/about" element={<About />} />
 				<Route path="/stack" element={<Stack />} />
 				<Route path="/projects" element={<Projects />} />
 				<Route path="/contact" element={<Contact />} />
