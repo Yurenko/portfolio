@@ -18,7 +18,7 @@
 			"id": 1,
 			"name": "Online Cinema",
 			"information": "Lore mdscsss ss",
-			"img": "./Online-cinema.jpg",
+			"img": "./onlinecinema.jpg",
 			"stack": "TypeScript, Next.js, Redux-Toolkit, axios, draft-js, js-cookie, react-hook-form, react-icons, react-loading-skeleton, sass, prettier, tailwind, Git, GitHub,",
 			"link": "link",
 			"github": "https://github.com/Yurenko/online-cinema"
