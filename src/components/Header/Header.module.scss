@@ -1,3 +1,5 @@
+@import '../../Styles/variebles.scss';
+
 .header {
 	display: flex;
 	align-items: center;
@@ -28,7 +30,7 @@
 			}
 
 			&:hover {
-				color: #000;
+				color: $black;
 			}
 
 			.icon {
@@ -58,9 +60,6 @@
 	button {
 		outline: none;
 		border: none;
-		-webkit-user-select: none;
-		-moz-user-select: none;
-		-ms-user-select: none;
 		cursor: pointer;
 		position: absolute;
 		top: 18px;

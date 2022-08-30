@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import './globals.scss'
+import './Styles/globals.scss'
 import App from './App'
 
 import { HashRouter } from 'react-router-dom'
