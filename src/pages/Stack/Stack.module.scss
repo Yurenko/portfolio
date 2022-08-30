@@ -1,0 +1,36 @@
+.stack {
+	text-align: center;
+
+	h1 {
+		position: relative;
+
+		&::before {
+			position: absolute;
+			display: none;
+			content: url('../../assets/outline-text/stack.svg');
+			opacity: 0.4;
+			top: -40px;
+			left: -100px;
+		}
+	}
+
+	.icons {
+		width: 100%;
+		margin: 70px auto 0;
+		display: grid;
+		grid-template-columns: repeat(auto-fill, minmax(100px, 135px));
+		row-gap: 40px;
+		column-gap: 30px;
+		justify-content: center;
+
+		svg {
+			margin: 0 auto;
+		}
+	}
+	
+	@media (min-width: 1024px) {
+		h1:before {
+			display: block;
+		}
+	}
+}

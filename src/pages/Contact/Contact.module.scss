@@ -1,0 +1,97 @@
+@import '../../Styles/variebles.scss';
+
+.contact {
+	margin-bottom: 50px;
+	h1 {
+		position: relative;
+
+		&::before {
+			position: absolute;
+			display: none;
+			content: url('../../assets/outline-text/contact.svg');
+			opacity: 0.4;
+			top: -35px;
+			left: -190px;
+		}
+	}
+
+	.subtitle {
+		font-size: 16px;
+		line-height: 24px;
+		max-width: 520px;
+	}
+
+	@media (min-width: 1024px) {
+		h1:before {
+			display: block;
+		}
+	}
+}
+
+.form {
+	width: 100%;
+
+	:not(.namePerson) {
+		margin-top: 2rem;
+	}
+
+	.textarea {
+		background-color: $input-background-color;
+		resize: none;
+		width: 100%;
+		height: 200px;
+		padding-left: 24px;
+		font-size: 15px;
+		border-radius: 10px;
+		border: none;
+		outline: none;
+		align-items: start;
+
+		&:focus {
+			outline-style: solid;
+			outline-width: 1px;
+			outline-color: $outline-color;
+		}
+	}
+
+	.namePerson {
+		display: flex;
+		gap: 32px;
+
+		input {
+			position: relative;
+		}
+
+		span {
+			position: absolute;
+			left: 0;
+			top: 20px;
+			color: red;
+		}
+
+		@media (max-width: 768px) {
+			& {
+				flex-wrap: wrap;
+				gap: 0;
+			}
+		}
+	}
+
+	.button {
+		display: block;
+		margin: 10px auto 0;
+		padding: 16px 28px;
+		font-weight: 500;
+		color: #fff;
+		background-color: #d4dade;
+		border-radius: 10px;
+		border: none;
+		transition-property: all;
+		transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+		transition-duration: 150ms;
+
+		&:hover {
+			background-color: #7eb3ff;
+		}
+	}
+}

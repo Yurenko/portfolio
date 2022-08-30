@@ -1,0 +1,31 @@
+.projects {
+	text-align: center;
+
+	h1 {
+		position: relative;
+
+		&::before {
+			position: absolute;
+			display: none;
+			content: url('../../assets/outline-text/projects.svg');
+			opacity: 0.4;
+			top: -40px;
+			left: -190px;
+		}
+	}
+
+	.cards {
+		display: grid;
+		grid-template-columns: repeat(auto-fill, minmax(270px, 310px));
+		grid-template-rows: 200px minmax(100px, 250px);
+		row-gap: 40px;
+		column-gap: 30px;
+		justify-content: center;
+	}
+
+	@media (min-width: 1024px) {
+		h1:before {
+			display: block;
+		}
+	}
+}

@@ -1,0 +1,70 @@
+@import '../../Styles/variebles.scss';
+
+h2 {
+	font-weight: 700;
+	font-size: 42px;
+	line-height: 52px;
+}
+
+p {
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 26px;
+}
+
+.cardBlock {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 700px;
+	height: 90px;
+	padding-bottom: 15px;
+	margin-bottom: 20px;
+	border-bottom: 2px solid #c2a6fa;
+}
+
+.content {
+	width: 525px;
+	display: flex;
+	flex-direction: column;
+
+	.name {
+		font-weight: 400;
+		font-size: 20px;
+		line-height: 28px;
+		color: $education-name-color;
+	}
+
+	.speciality {
+		color: $education-speciality-color;
+		font-weight: 500;
+		font-size: 12px;
+		line-height: 28px;
+	}
+}
+
+.date {
+	width: 175px;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	justify-content: space-between;
+
+	.employment {
+		height: 26px;
+		padding: 0 15px;
+		font-weight: 600;
+		font-size: 15px;
+		line-height: 26px;
+		border-radius: 100px;
+		color: $employment-color;
+		background-color: $employment-background-color;
+	}
+
+	.timePeriod {
+		font-weight: 500;
+		font-size: 12px;
+		line-height: 28px;
+	}
+}
